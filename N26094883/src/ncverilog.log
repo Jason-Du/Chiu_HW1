@@ -1,0 +1,113 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Oct 25, 2020 at 00:12:05 CST
+ncverilog
+	cpu_rtl.sv
+file: cpu_rtl.sv
+	module worklib.pc_controller:sv
+		errors: 0, warnings: 0
+	module worklib.pause_pc_controller:sv
+		errors: 0, warnings: 0
+	module worklib.pause_instruction_controller:sv
+		errors: 0, warnings: 0
+	module worklib.decoder:sv
+		errors: 0, warnings: 0
+	module worklib.control:sv
+		errors: 0, warnings: 0
+	module worklib.register:sv
+		errors: 0, warnings: 0
+	module worklib.imm_extended:sv
+		errors: 0, warnings: 0
+	module worklib.if_id_rst_controller:sv
+		errors: 0, warnings: 0
+	module worklib.id_exe_rst_controller:sv
+		errors: 0, warnings: 0
+	module worklib.exe_mem_rst_controller:sv
+		errors: 0, warnings: 0
+	module worklib.alu_rd:sv
+		errors: 0, warnings: 0
+	module worklib.alu_in_selector:sv
+		errors: 0, warnings: 0
+	module worklib.alu_addr:sv
+		errors: 0, warnings: 0
+	module worklib.alu_pc:sv
+		errors: 0, warnings: 0
+	module worklib.load_hazard:sv
+		errors: 0, warnings: 0
+	module worklib.divider4:sv
+		errors: 0, warnings: 0
+	module worklib.low_byte_control_write_data:sv
+		errors: 0, warnings: 0
+	module worklib.low_byte_control_read_data:sv
+		errors: 0, warnings: 0
+	module worklib.wb_controller:sv
+		errors: 0, warnings: 0
+	module worklib.forwarding_unit:sv
+		errors: 0, warnings: 0
+	module worklib.cpu:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alu_addr:sv <0x71a1fbe2>
+			streams:   0, words:     0
+		worklib.alu_in_selector:sv <0x3c9b50a5>
+			streams:   0, words:     0
+		worklib.alu_pc:sv <0x6d3f4429>
+			streams:   0, words:     0
+		worklib.alu_rd:sv <0x04de64de>
+			streams:   0, words:     0
+		worklib.control:sv <0x7562503f>
+			streams:   0, words:     0
+		worklib.cpu:sv <0x27c77d7c>
+			streams:   0, words:     0
+		worklib.decoder:sv <0x2b074800>
+			streams:   0, words:     0
+		worklib.divider4:sv <0x4aecf96d>
+			streams:   0, words:     0
+		worklib.exe_mem_rst_controller:sv <0x26acd9ff>
+			streams:   0, words:     0
+		worklib.forwarding_unit:sv <0x6643df5b>
+			streams:   0, words:     0
+		worklib.id_exe_rst_controller:sv <0x44b7d1f1>
+			streams:   0, words:     0
+		worklib.if_id_rst_controller:sv <0x278b7bb0>
+			streams:   0, words:     0
+		worklib.imm_extended:sv <0x46f99e4a>
+			streams:   0, words:     0
+		worklib.load_hazard:sv <0x32cd7ba5>
+			streams:   0, words:     0
+		worklib.low_byte_control_read_data:sv <0x0f3b348d>
+			streams:   0, words:     0
+		worklib.low_byte_control_write_data:sv <0x3b45e3bc>
+			streams:   0, words:     0
+		worklib.pause_instruction_controller:sv <0x071fda73>
+			streams:   0, words:     0
+		worklib.pause_pc_controller:sv <0x645170c4>
+			streams:   0, words:     0
+		worklib.pc_controller:sv <0x5be52e16>
+			streams:   0, words:     0
+		worklib.register:sv <0x040582c8>
+			streams:   0, words:     0
+		worklib.wb_controller:sv <0x438ec8ad>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 21      21
+		Registers:              132     132
+		Scalar wires:            47       -
+		Vectored wires:          76       -
+		Always blocks:           31      31
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.pause_pc_controller:sv
+Loading snapshot worklib.pause_pc_controller:sv .................... Done
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Oct 25, 2020 at 00:12:06 CST  (total: 00:00:01)
